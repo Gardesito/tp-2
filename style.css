@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  place-items: center;
+}
+.carrusel {
+  display: flex;
+}
+
+.imagenes {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+/* .carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.imagenes {
+  flex: 1 0 auto;
+  margin: 0 50 px;
+  background-color: red;
+  width: 500px;
+  height: 500px;
+}
+ */
+
+/* ----------------------------------------------------- */
+
+.agrandar {
+  font-size: 2rem;
+}
+
+.restaurar {
+  font-size: 1rem;
+}
+
+/* ------------------------- */
+
+.ocultar {
+  display: none;
+}
+.aparecer {
+  display: block;
+}
