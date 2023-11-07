@@ -15,7 +15,7 @@ primo(17);
 function sumasMatriz(a, b) {
   for (let i = 0; i < a.length; i++) {
     for (let x = 0; x < a[i].length; x++) {
-      console.log(a[i][x] + b[i][x]);
+      /* console.log(a[i][x] + b[i][x]); */
     }
   }
 }
@@ -76,13 +76,19 @@ function nombreUnico(listaDeNombres) {
 nombreUnico(["elias", "joaquin", "elias"]);
 
 // ACTIVIDAD 6
+
 function reverse1(texto) {
+  let textoR = "";
   let nuevoTexto = texto.split("");
-  for (let i = 3; i == 0; i--) {
-    console.log(i);
+
+  for (let i = nuevoTexto.length - 1; i >= 0; i--) {
+    textoR += nuevoTexto[i];
+    ;
   }
+  return textoR;
 }
-reverse1("hola");
+
+console.log(reverse1("elias"));
 
 /* ----------------------------------- */
 let index = 0;
